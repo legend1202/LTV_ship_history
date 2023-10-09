@@ -1,0 +1,34 @@
+{
+  "name": "lzk",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@types/node": "20.6.3",
+    "@types/react": "18.2.22",
+    "@types/react-dom": "18.2.7",
+    "eslint": "8.50.0",
+    "eslint-config-next": "13.5.2",
+    "install": "^0.13.0",
+    "next": "^13.5.2",
+    "next-intl": "^3.0.0-beta.19",
+    "npm": "^10.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scroll": "^1.8.9",
+    "styled-components": "^6.0.8",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@types/react-scroll": "^1.8.8",
+    "husky": "^8.0.3",
+    "prettier": "^3.0.3"
+  }
+}
